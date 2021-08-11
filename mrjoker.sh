@@ -1905,7 +1905,6 @@ iptables -A INPUT -p udp -m udp -s 179.49.64.0/24 --dport 30120 -j ACCEPT
 
 ##### Suisse ######
 
-UPC Schweiz
 iptables -A INPUT -p udp -m udp -s 212.142.0.0/18 --dport 30120 -j ACCEPT
 iptables -A INPUT -p udp -m udp -s 212.47.176.0/20 --dport 30120 -j ACCEPT
 iptables -A INPUT -p udp -m udp -s 213.134.160.0/20 --dport 30120 -j ACCEPT
